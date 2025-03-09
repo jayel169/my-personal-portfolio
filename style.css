@@ -1,8 +1,10 @@
 :root {
-    --primary-color: #2c3e50; /* Dark navy blue */
-    --secondary-color: #34495e; /* Slightly lighter blue */
-    --accent-color: #f39c12; /* Warm orange for highlights */
-    --text-light: #ecf0f1; /* Light grayish white */
+    --primary-color: #1f2937; /* Dark blue-gray */
+    --secondary-color: #111827; /* Deep navy */
+    --accent-color: #facc15; /* Bright yellow */
+    --text-light: #e5e7eb; /* Light gray */
+    --link-color: #60a5fa; /* Soft blue */
+    --link-hover-color: #3b82f6; /* Brighter blue */
     --border-radius: 8px;
 }
 
@@ -40,11 +42,11 @@ body {
 }
 
 .nav-links a {
-    color: var(--text-light);
+    color: var(--link-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .nav-links a:hover {
